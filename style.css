@@ -431,7 +431,7 @@ select {
 }
 
 .reset-btn {
-  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  background: linear-gradient(135deg, #0071c5, #005a9e);
   color: white;
   border: none;
   padding: 12px 28px;
@@ -443,19 +443,19 @@ select {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 113, 197, 0.2);
   letter-spacing: 0.5px;
 }
 
 .reset-btn:hover {
-  background: linear-gradient(135deg, #b91c1c, #991b1b);
+  background: linear-gradient(135deg, #005a9e, #003c71);
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 6px 16px rgba(0, 113, 197, 0.4);
 }
 
 .reset-btn:active {
   transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 113, 197, 0.3);
 }
 
 .reset-btn i {
